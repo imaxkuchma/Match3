@@ -20,6 +20,7 @@ namespace Match3.Match3Editor
 
 
 
+
             firstLevelButton = this.Q<Button>("navigation__first-level-button");
             prevLevelButton = this.Q<Button>("navigation__prev-level-button");
             levelNumberField = this.Q<IntegerField>("navigation__level-number-field");

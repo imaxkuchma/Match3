@@ -91,12 +91,12 @@ namespace Match3
 
             //var senderMoveTask = senderCellData.PieceData.View.MoveToParentTile();
             //var neighboringMoveTask = neighboringCellData.PieceData.View.MoveToParentTile();
-
+            /*
             await DOTween.Sequence()
                 .Join(senderCellData.PieceData.View.transform.DOLocalMove(senderCellData.WorldPosition, 2))
                 .Join(senderCellData.PieceData.View.transform.DOLocalMove(senderCellData.WorldPosition, 2))
                 .SetEase(Ease.Flash)
-                .WithCancellation(cancellationToken);
+                .WithCancellation(cancellationToken);*/
         }
 
         private async UniTask<bool> CheckMatch(IBoardData board, ICellData CellData)
@@ -120,7 +120,7 @@ namespace Match3
                         if (!matchGroup.sharedCellsList.Contains(cell))
                         {
 #pragma warning disable 4014
-                            cell.PieceData.View.HideAndDestroy();
+                            //cell.PieceData.View.HideAndDestroy();
 #pragma warning restore 4014
 
                             cell.PieceData = null;

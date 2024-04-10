@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Match3/UIToolkit/ModalWindow.uss?fileID=7433441132597879392&amp;guid=f2bc08274370a2a47b977e962e1e6369&amp;type=3#ModalWindow" />
+    <ui:VisualElement name="modal-window" class="modal-window">
+        <ui:VisualElement name="modal-window__header" class="modal-window__header">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="modal-window__header__title" class="modal-window__header__title" />
+        </ui:VisualElement>
+        <ui:VisualElement name="modal-window__container" class="modal-window__container" />
+        <ui:VisualElement style="flex-grow: 1; position: absolute; height: 100%; width: 10px; background-color: rgb(255, 124, 124); right: -5px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,32 @@
+.element-entry {
+    flex-grow: 1;
+    flex-direction: row;
+    border-left-color: rgb(65, 65, 65);
+    border-right-color: rgb(65, 65, 65);
+    border-top-color: rgb(65, 65, 65);
+    border-bottom-color: rgb(65, 65, 65);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+}
+
+.element-entry__image {
+    flex-grow: 1;
+    width: 50px;
+    max-width: 50px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(255, 114, 114);
+    border-right-color: rgb(255, 114, 114);
+    border-top-color: rgb(255, 114, 114);
+    border-bottom-color: rgb(255, 114, 114);
+}
+
+.element-entry__label {
+    -unity-text-align: middle-left;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}

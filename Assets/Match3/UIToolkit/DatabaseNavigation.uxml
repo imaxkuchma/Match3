@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Match3/UIToolkit/DatabaseNavigation.uss?fileID=7433441132597879392&amp;guid=cfcfae31301c2884ebe1c3ae0e7afe5f&amp;type=3#DatabaseNavigation" />
+    <ui:VisualElement name="database" class="database">
+        <ui:VisualElement name="database__navigation" class="database-navigation">
+            <ui:Button text="&lt;&lt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="navigation__first-level-button" class="navigation__button" />
+            <ui:Button text="&lt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="navigation__prev-level-button" class="navigation__button" />
+            <ui:IntegerField value="42" name="navigation__level-number-field" class="navigation__field" />
+            <ui:Button text="&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="navigation__next-level-button" class="navigation__button" />
+            <ui:Button text="&gt;&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="navigation__last-level-button" class="navigation__button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="database-separator" class="database-separator" />
+        <ui:VisualElement name="database__edit" class="database__edit">
+            <ui:Button text="Create level" parse-escape-sequences="true" display-tooltip-when-elided="true" name="edit__create-level" class="edit-button" />
+            <ui:Button text="Delete level" parse-escape-sequences="true" display-tooltip-when-elided="true" name="edit__delete-level" class="edit-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

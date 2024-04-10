@@ -1,0 +1,49 @@
+.modal-window {
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: absolute;
+    background-color: rgb(56, 56, 56);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(89, 89, 89);
+    border-right-color: rgb(89, 89, 89);
+    border-top-color: rgb(89, 89, 89);
+    border-bottom-color: rgb(89, 89, 89);
+    width: 100%;
+}
+
+.modal-window__header {
+    flex-grow: 1;
+    height: auto;
+    background-color: rgb(40, 40, 40);
+    min-height: 25px;
+    max-height: 25px;
+    flex-direction: row;
+    align-self: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-window__header__title {
+    flex-direction: row;
+    align-items: center;
+    align-self: auto;
+    justify-content: flex-start;
+    color: rgb(171, 171, 171);
+    font-size: 13px;
+    -unity-text-align: middle-left;
+    margin-left: 5px;
+    -unity-font-style: normal;
+}
+
+.modal-window__container {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Match3/UIToolkit/GroupPanel.uss?fileID=7433441132597879392&amp;guid=b452f488a3d5233438df17f053194456&amp;type=3#GroupPanel" />
+    <ui:VisualElement name="group-panel" class="group-panel">
+        <ui:VisualElement name="group-panel__header" class="group-panel__header">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="group-panel__header__title" class="group-panel__header__title" />
+        </ui:VisualElement>
+        <ui:VisualElement name="group-panel__container" class="group-panel__container" style="padding-top: 10px; padding-bottom: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

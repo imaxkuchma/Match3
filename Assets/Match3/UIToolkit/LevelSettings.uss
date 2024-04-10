@@ -1,0 +1,8 @@
+.level-general-settings {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.resize-button--max-size {
+    max-width: 150px;
+}

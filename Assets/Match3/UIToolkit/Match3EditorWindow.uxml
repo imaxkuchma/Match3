@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Match3/UIToolkit/Match3EditorWindow.uss?fileID=7433441132597879392&amp;guid=c9b2f9602b7962844b5ad4b3d35ca069&amp;type=3#Match3EditorWindow" />
+    <ui:VisualElement name="main-window" class="main-window">
+        <ui:VisualElement name="heared" class="header">
+            <ui:VisualElement name="header__title-img" class="header__title-img">
+                <ui:Label tabindex="-1" text="Match3 Editor v1.0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="header__title-label" class="header__title-label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="tool-bar" class="tool-bar" style="display: none;" />
+        <ui:VisualElement name="body" class="body" style="width: 100%;">
+            <ui:VisualElement name="body__general-settings-panel" class="body__general-settings-panel" />
+            <ui:VisualElement name="body__level-borad-container" class="body__level-borad-container" style="flex-grow: 1; cursor: initial;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" class="footer panel" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,104 @@
+.main-window {
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+}
+
+.header {
+    height: auto;
+    background-color: rgb(62, 62, 62);
+    max-height: 40px;
+    min-height: 40px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(88, 88, 88);
+    border-right-color: rgb(88, 88, 88);
+    border-top-color: rgb(88, 88, 88);
+    border-bottom-color: rgb(88, 88, 88);
+    border-top-width: 0;
+}
+
+.header__title-img {
+    background-image: url('project://database/Assets/Match3/Sprites/Icon/Title-image.png?fileID=2800000&guid=5be740c8909aa3b4fb84f18573690f92&type=3#Title-image');
+    min-height: 100%;
+    min-width: 300px;
+    max-width: 300px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__title-label {
+    color: rgb(224, 165, 0);
+    -unity-text-align: middle-left;
+    height: 100%;
+    -unity-font-style: bold-and-italic;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.tool-bar {
+    flex-grow: 1;
+    background-color: rgb(64, 64, 64);
+    min-height: 30px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(88, 88, 88);
+    border-right-color: rgb(88, 88, 88);
+    border-top-color: rgb(88, 88, 88);
+    border-bottom-color: rgb(88, 88, 88);
+    max-height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-top-width: 1px;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 51, 51);
+    flex-direction: row;
+}
+
+.body__general-settings-panel {
+    flex-grow: 1;
+    width: 320px;
+    min-width: 320px;
+    border-right-width: 1px;
+    border-left-color: rgb(88, 88, 88);
+    border-right-color: rgb(88, 88, 88);
+    border-top-color: rgb(88, 88, 88);
+    border-bottom-color: rgb(88, 88, 88);
+}
+
+.body__level-borad-container {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgb(42, 42, 42);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+}
+
+.footer {
+    min-height: auto;
+    height: 20px;
+    border-left-color: rgb(88, 88, 88);
+    border-right-color: rgb(88, 88, 88);
+    border-top-color: rgb(88, 88, 88);
+    border-bottom-color: rgb(88, 88, 88);
+    border-top-width: 1px;
+}
+
+.resize-horizontal {
+    cursor: initial;
+    background-color: rgb(255, 71, 71);
+}

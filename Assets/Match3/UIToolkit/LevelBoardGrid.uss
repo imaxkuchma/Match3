@@ -1,0 +1,38 @@
+.level-board-grid {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    position: relative;
+    left: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.level-board-grid__row {
+    flex-direction: row;
+}
+
+.level-board-grid__cell {
+    flex-direction: row;
+}
+
+.level-board-grid__cell--enabled {
+}
+
+.level-board-grid__cell--disabled {
+    background-color: rgb(147, 0, 16);
+}
+
+.level-board-grid__cell--focused {
+    -unity-background-image-tint-color: rgb(160, 172, 255);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(94, 101, 149);
+    border-right-color: rgb(94, 101, 149);
+    border-top-color: rgb(94, 101, 149);
+    border-bottom-color: rgb(94, 101, 149);
+}

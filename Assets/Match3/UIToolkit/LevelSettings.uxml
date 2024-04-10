@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Match3/UIToolkit/LevelSettings.uss?fileID=7433441132597879392&amp;guid=42b31f4a2886d124aa086a8917fc1e5e&amp;type=3#LevelSettings" />
+    <ui:VisualElement name="level-general-settings" class="level-general-settings" style="align-self: auto; justify-content: space-around; align-items: stretch;">
+        <ui:IntegerField label="Width" value="42" name="level-general-settings__width" focusable="true" />
+        <ui:IntegerField label="Height" value="42" name="level-general-settings__height" readonly="false" is-delayed="false" focusable="true" />
+        <ui:Button text="Resize board" parse-escape-sequences="true" display-tooltip-when-elided="true" name="level-general-settings__resize-button" />
+        <ui:EnumField label="Goal Type" type="Match3.LevelGoalType, Assembly-CSharp" name="level-general-settings__goal-type" />
+        <ui:Toggle label="Use step limit" value="false" name="level-general-settings__use-step-limit" />
+        <ui:IntegerField label="Step limit" value="20" name="level-general-settings__step-limit" style="visibility: visible; overflow: visible;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -18,6 +18,7 @@ namespace Match3.Match3Editor
             var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Match3/UIToolkit/DatabaseNavigation.uxml");
             visualTree.CloneTree(this);
 
+
             firstLevelButton = this.Q<Button>("navigation__first-level-button");
             prevLevelButton = this.Q<Button>("navigation__prev-level-button");
             levelNumberField = this.Q<IntegerField>("navigation__level-number-field");
